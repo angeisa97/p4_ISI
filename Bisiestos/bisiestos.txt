@@ -1,0 +1,15 @@
+1. BISIESTOS
+
+Hay distintas condiciones que debe cumplir un año para ser bisiesto
+  1. Primero comprobamos que sea divisible entre 4. Si no lo es, no es bisiestos
+
+  2. Ahora comprobamos que es divisible entre 100. Si NO es divisible entre 100,
+    y si es divisible entre 4, es un año bisiesto.
+    Si es divisible entre 100 y entre 4, seguimos comprobando
+
+  3. Vemos si es divisible entre 400. Si NO es divisible entre 400, NO es un
+    año bisiesto.
+    Si es divisible entre 400, es un año bisiesto.
+
+
+Los tests desarrollados prueban cada una de las condiciones anteriores
