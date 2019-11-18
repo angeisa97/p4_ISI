@@ -1,15 +1,22 @@
 1. BISIESTOS
 
 Hay distintas condiciones que debe cumplir un año para ser bisiesto
-  1. Primero comprobamos que sea divisible entre 4. Si no lo es, no es bisiestos
+
+  1. Primero comprobamos que sea divisible entre 4. Si no lo es, no es bisiesto. 
+Caracterización 1: bx: es bisiesto seguimos comprobando, true. by: false,no es bisiesto
 
   2. Ahora comprobamos que es divisible entre 100. Si NO es divisible entre 100,
     y si es divisible entre 4, es un año bisiesto.
-    Si es divisible entre 100 y entre 4, seguimos comprobando
+Caracterizacion 2: bx: false, es bisiesto
+    Si es divisible entre 100 y entre 4, seguimos comprobando.
+Caracterización 2: by: true, seguimos comprobando
 
   3. Vemos si es divisible entre 400. Si NO es divisible entre 400, NO es un
     año bisiesto.
+Caracterizacion 3: bx, false, no es bisisto
     Si es divisible entre 400, es un año bisiesto.
-
+Caracterizacion 3: by, es bisiesto
 
 Los tests desarrollados prueban cada una de las condiciones anteriores
+
+4. BLACK FRIDAY
