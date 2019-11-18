@@ -10,14 +10,14 @@ public class DescuentoBlackFriday {
      // Eleva la excepcion InvalidParameter si precioOriginal es negativo
 
 
-     public static double PrecioFinal(double precioOriginal, double porcentajeDescuento, Date fecha)
+     public double PrecioFinal(double precioOriginal, double porcentajeDescuento, Date fecha) throws InvalidParameter
      {
 
           Date black = new Date(2019,11,29);
 
-          /*if (precioOriginal <= 0){
+          if (precioOriginal <= 0){
                throw new InvalidParameter("Precio original negativo");
-          }*/
+          }
 
           if (black.compareTo(fecha) == 0){
                //Si la fecha introducida es blackfriday
