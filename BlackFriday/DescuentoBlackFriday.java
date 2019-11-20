@@ -9,10 +9,8 @@ public class DescuentoBlackFriday {
      //             un descuento de porcentajeDescuento
      // Eleva la excepcion InvalidParameter si precioOriginal es negativo
 
-
      public double PrecioFinal(double precioOriginal, double porcentajeDescuento, Date fecha) throws InvalidParameter
      {
-
           Date black = new Date(2019,11,29);
 
           if (precioOriginal <= 0){
@@ -27,7 +25,5 @@ public class DescuentoBlackFriday {
                double preciofinal = precioOriginal;
                return preciofinal;
           }
-
-
      }
 }
