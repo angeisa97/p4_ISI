@@ -2,21 +2,34 @@
 
 Hay distintas condiciones que debe cumplir un año para ser bisiesto
 
-  1. Primero comprobamos que sea divisible entre 4. Si no lo es, no es bisiesto. 
-Caracterización 1: bx: es bisiesto seguimos comprobando, true. by: false,no es bisiesto
+	1. Si el año introducido es 0 o negativo--> lanza la excepcion. Caracterizacion 1. Si es negativo --> true, bx lanza la excepcion
+Si es un año valido --> false, by
 
-  2. Ahora comprobamos que es divisible entre 100. Si NO es divisible entre 100,
+  2. Primero comprobamos que sea divisible entre 4. Si no lo es, no es bisiesto. 
+Caracterización 2: bx: es bisiesto seguimos comprobando, true. by: false,no es bisiesto
+
+  3. Ahora comprobamos que es divisible entre 100. Si NO es divisible entre 100,
     y si es divisible entre 4, es un año bisiesto.
-Caracterizacion 2: bx: false, es bisiesto
+Caracterizacion 3: bx: false, es bisiesto
     Si es divisible entre 100 y entre 4, seguimos comprobando.
-Caracterización 2: by: true, seguimos comprobando
+Caracterización 3: by: true, seguimos comprobando
 
-  3. Vemos si es divisible entre 400. Si NO es divisible entre 400, NO es un
+  4. Vemos si es divisible entre 400. Si NO es divisible entre 400, NO es un
     año bisiesto.
-Caracterizacion 3: bx, false, no es bisisto
+Caracterizacion 4: bx, false, no es bisisto
     Si es divisible entre 400, es un año bisiesto.
-Caracterizacion 3: by, es bisiesto
+Caracterizacion 4: by, es bisiesto
 
 Los tests desarrollados prueban cada una de las condiciones anteriores
 
 4. BLACK FRIDAY
+
+Comprobamos que la fecha introducida como parámetro es el black friday de este año: 29.11.19
+
+	1. Comprobamos si el precio original es válido. caracterizacion 1
+Si es true --> bx, seguimos comprobando la fecha
+Si es false --> by, lanzamos invalidParameter
+
+	2. Vemos si la fecha introducida es la del black friday. Caracterizacion 2
+	Si es el black friday, aplicamos el descuento: bx
+	Si no lo es, dejamos el precio original: by
