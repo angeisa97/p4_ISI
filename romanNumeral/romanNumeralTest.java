@@ -13,12 +13,10 @@ public class romanNumeralTest
      assertEquals("el numero es 14", 14, romanNumeral.convierte("XIV"));
    }
    
-      
-   @Test public void numeroNoRomano() throws InvalidParameter
-   {
+	@Test(expected = InvalidParameter.class) 
+	 public void romanNumeral() throws InvalidParameter
+	{
+	 romanNumeral.convierte("K");
+	}    
    
-     assertEquals("No es numero romano", -1, romanNumeral.convierte("K"));
-   }
-
-
 }

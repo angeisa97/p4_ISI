@@ -22,6 +22,13 @@ Caracterizacion 4: by, es bisiesto
 
 Los tests desarrollados prueban cada una de las condiciones anteriores
 
+3.EMBOTELLADORA
+
+Primero compruebo que el total de litros cabe en las botellas grandes: carcaterizacion c1.
+Si el numero de botellas grandes que necesitamos es mayor al numero de botellas grandes que tenemos, bx. Si es al contrario, by
+
+Después se reparten los litros que quedan entre las botellas pequeñas: carcaterizacion 2. Si no tenemos suficiente numero de pequeñas salta excepcion, bx y si tenemos un numero suficiente de botellas pequeñas nos devuelve el resultado de botellas pequeñas usadas, by. 
+
 4. BLACK FRIDAY
 
 Comprobamos que la fecha introducida como parámetro es el black friday de este año: 29.11.19

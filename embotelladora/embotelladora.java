@@ -23,7 +23,6 @@ public class embotelladora{
 		total_peq = total_litros/1;
 		if(total_peq > pequenas){
 			throw new NoSolution("no solucion");
-			//return -1;
 		}else{
 			botellas_pequenas = total_peq;
 			return botellas_pequenas;

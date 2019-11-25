@@ -45,7 +45,6 @@ public class romanNumeral {
                     lastNumber = 1;
             }else{
 				throw new InvalidParameter("parametro invalido");
-				//return -1;
             }
         }
         return decimal;
