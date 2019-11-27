@@ -21,7 +21,7 @@ public class romanNumeral {
                     lastNumber = 500;
                 
 
-            }else if (convertToDecimal == 'M'){
+            }else if (convertToDecimal == 'C'){
                     decimal = processDecimal(100, lastNumber, decimal);
                     lastNumber = 100;
                    

@@ -22,6 +22,12 @@ Caracterizacion 4: by, es bisiesto
 
 Los tests desarrollados prueban cada una de las condiciones anteriores
 
+2.ROMANUMERAL
+
+c1: asignar a las letras cada valor. bm(M), bd(D), bc(C), bl(L), bx(X), bv(V), bi(I), bz(parametro invalido)
+
+c2: comprobar si se resta. br (resta) y bs(suma)
+
 3.EMBOTELLADORA
 
 Primero compruebo que el total de litros cabe en las botellas grandes: carcaterizacion c1.
